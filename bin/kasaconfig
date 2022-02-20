@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
+export PATH
+
+PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/
+export PYTHONPATH
+
+LANG=tr_TR.UTF-8
+export LANG
+
+BASEDIR=$(dirname $0)
+
+$BASEDIR/../src/kasa_config.py
