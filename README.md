@@ -30,9 +30,9 @@ A sample config file is below.
 debug=ERROR
 
 [key]
-cryptKey = ?$????)??XI@??S
-s3Code = AKIAJYMVJZSFZKGDVQZA
-s3Key = hJdGszX2hwRz9CBL+cQEIV5s6G9LSeZqRlg08kqx
+cryptKey = ******************
+s3Code = ******************
+s3Key = ****************
 ```
 
 `bin/kasastore` backups file / directories to a local or S3 storage. Source and destinations are provided in URI format. A sample command is below.
